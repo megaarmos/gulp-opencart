@@ -1,4 +1,5 @@
 # Gulp for opencart
+Ready gulp.js for your progject
 
 ## Get Started
 1. **First make sure you have installed the right version of node.js and npm istalled.**
@@ -19,11 +20,11 @@
     npm install gulp-cli -g
     ```
 
-3. For next steps you need to be in your website root folder.
-    For example:
+    > For next steps you need to be in your website root folder.
+    > For example:
     > ...\domain\(domain name)>
 
-    This command will create package.json file.
+3.This command will create package.json file.
 
     ```
     npm init -y
@@ -35,5 +36,5 @@
     ```
 
 ## Command line usage
-Run ```gulp``` in comand line and you are ready to go! 
+Run ```gulp``` in command line and you are ready to go! 
 
