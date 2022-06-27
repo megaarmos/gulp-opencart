@@ -1,5 +1,6 @@
 # Gulp for opencart
-Ready gulp.js for your progject
+Ready gulp.js for your project
+***Supports only ```sass``` and ```scss```***
 
 ## Get Started
 1. First make sure you have installed the right version of node.js and npm istalled.
