@@ -3,7 +3,7 @@
 ## Get Started
 1. **First make sure you have installed the right version of node.js and npm istalled.**
 
-Recomended version of [node.js](https://nodejs.org/en/) is 8.17.0 or above
+- Recomended version of [node.js](https://nodejs.org/en/) is 8.17.0 or above
 ```
 node -v
 ```
