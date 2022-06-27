@@ -2,7 +2,7 @@
 Ready gulp.js for your progject
 
 ## Get Started
-1. **First make sure you have installed the right version of node.js and npm istalled.**
+1. First make sure you have installed the right version of node.js and npm istalled.
 
     - Recomended version of [node.js](https://nodejs.org/en/) is 8.17.0 or above.
       ```
@@ -20,9 +20,9 @@ Ready gulp.js for your progject
     npm install gulp-cli -g
     ```
 
-    > For next steps you need to be in your website root folder.
-    > For example:
-    > ...\domain\(domain name)>
+***For next steps you need to be in your website root folder.***
+For example:
+> ...\domain\(domain name)>
     
 3. This command will create package.json file.
     ```
