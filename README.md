@@ -1,5 +1,5 @@
 # Gulp for opencart
-Ready gulp.js for your project
+Ready gulp.js for your project.
 ***Supports only ```sass``` and ```scss```***
 
 ## Get Started
