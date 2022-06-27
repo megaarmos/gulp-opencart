@@ -1,4 +1,4 @@
-# gulp-opencart
+# Gulp for opencart
 
 ## Get Started
 1. **First make sure you have installed the right version of node.js and npm istalled.**
