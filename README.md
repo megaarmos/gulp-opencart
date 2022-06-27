@@ -23,9 +23,8 @@ Ready gulp.js for your progject
     > For next steps you need to be in your website root folder.
     > For example:
     > ...\domain\(domain name)>
-
-3.This command will create package.json file.
-
+    
+3. This command will create package.json file.
     ```
     npm init -y
     ```
