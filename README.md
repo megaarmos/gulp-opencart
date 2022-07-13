@@ -36,6 +36,7 @@ For example:
     ```
 
 ## Command line usage
-Rename ```gulp.js``` to ```gulpfile.js```
+Rename ```gulp.js``` to ```gulpfile.js```. 
+
 Run ```gulp``` in command line and you are ready to go! 
 
