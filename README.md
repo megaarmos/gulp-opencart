@@ -30,7 +30,7 @@ For example:
     npm init -y
     ```
 
-4. This command will install package.json file.
+4. This command will install required packages.
     ```
     npm install gulp gulp-sass gulp-postcss cssnano gulp-terser browser-sync
     ```
