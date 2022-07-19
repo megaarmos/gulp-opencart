@@ -32,7 +32,7 @@ For example:
 
 4. This command will install required packages.
     ```
-    npm install gulp gulp-sass gulp-postcss cssnano gulp-terser browser-sync
+    npm install gulp gulp-sass sass gulp-postcss cssnano gulp-terser browser-sync
     ```
 
 ## Command line usage
