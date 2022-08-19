@@ -6,6 +6,7 @@ let fileswatch   = '+(twig|php|tpl)'; 	// File monitoring, extensions
 const { src, dest, parallel, series, watch } = require('gulp');
 
 const sass = require('gulp-sass')(require('sass'));
+const autoprefixer = require('autoprefixer')
 const postcss = require('gulp-postcss');
 const cssnano = require('cssnano');
 const terser = require('gulp-terser');
@@ -15,7 +16,11 @@ const browsersync = require('browser-sync').create();
 function styleTask() {
 	return src(`catalog/view/theme/${theme}/${preprocessor}/stylesheet.${preprocessor}`, { sourcemaps: true })
 		.pipe(sass())
-		.pipe(postcss([cssnano()]))
+		.pipe(postcss([cssnano(), autoprefixer(autoprefixer({
+		    grid: true,
+		    overrideBrowserslist: ["last 3 versions"],
+		    cascade: true
+		}))]))
 		.pipe(dest(`catalog/view/theme/${theme}/stylesheet`, { sourcemaps: '.' }))
 }
 
