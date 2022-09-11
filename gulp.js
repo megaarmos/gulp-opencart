@@ -1,5 +1,5 @@
 let domain       = 'opencart3x.loc'; 		//Local domain name
-let theme        = 'neutron'; 			    //Custom theme opencart name
+let theme        = 'default'; 			    //Custom theme opencart name
 let preprocessor = 'scss'; 			        // Preprocessor (sass, scss)
 let fileswatch   = '+(twig|php|tpl)'; 	// File monitoring, extensions
 
